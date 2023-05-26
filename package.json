@@ -1,0 +1,49 @@
+{
+  "dependencies": {
+    "@bn-digital/strapi-plugin-field-uuid": "^1.1.7",
+    "@palmabit/strapi-app-version": "^1.1.0",
+    "@strapi/plugin-graphql": "^4.0.5",
+    "@strapi/plugin-i18n": "^4.10.6",
+    "@strapi/plugin-open-ai": "^1.0.1",
+    "@strapi/plugin-seo": "^1.8.0",
+    "@strapi/plugin-users-permissions": "^4.10.6",
+    "@strapi/strapi": "^4.10.6",
+    "fs-extra": "^10.0.0",
+    "lodash.set": "^4.3.2",
+    "mime-types": "^2.1.27",
+    "pg": "8.8.0",
+    "strapi-chatgpt": "^1.0.2",
+    "strapi-plugin-duplicate-button": "^1.1.7",
+    "strapi-plugin-ezforms": "^0.1.5",
+    "strapi-plugin-menus": "^1.3.2",
+    "strapi-plugin-navigation": "^2.2.4",
+    "strapi-plugin-publisher": "^1.3.1",
+    "strapi-plugin-responsive-image": "^1.0.1",
+    "strapi-plugin-sitemap": "^2.0.9",
+    "strapi-plugin-slugify": "^2.3.2",
+    "strapi-plugin-update-static-content": "^1.0.5",
+    "strapi-plugin-vercel-deploy": "^1.4.0"
+  },
+  "name": "iit-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "1575f9fa-ea83-4893-adcc-d121810a82e2",
+    "template": "blog"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
